@@ -33,21 +33,21 @@
 
 // Напиши програму, яка запитує у користувача номер місяця (від 1 до 12) і виводить пору року 
 // (1-3 — зима, 4-6 — весна, 7-9 — літо, 10-12 — осінь). Використай switch case.
-let month= prompt("Enter month number");
-switch (true){
-    case (month >=1 && month <=3):
-        alert("Winter");
-        break;
-        case (month >=4 && month <=6):
-        alert("Spring");
-        break;
-        case (month >=7 && month <=9):
-        alert("Summer");
-        break;
-        case (month >= 10 && month <= 12):
-        alert("Fall");
-        break;
-}
+// let month= prompt("Enter month number");
+// switch (true){
+//     case (month >=1 && month <=3):
+//         alert("Winter");
+//         break;
+//         case (month >=4 && month <=6):
+//         alert("Spring");
+//         break;
+//         case (month >=7 && month <=9):
+//         alert("Summer");
+//         break;
+//         case (month >= 10 && month <= 12):
+//         alert("Fall");
+//         break;
+// }
 
 
 
@@ -68,3 +68,47 @@ switch (true){
 //     alert("pensioner");
 //     break;
 // }
+
+
+// Напиши програму, яка запитує у користувача назву місяця (наприклад, "Січень") 
+// і виводить його порядковий номер (1 для Січня, 2 для Лютого і т.д.). Використай switch case.
+let month = prompt("Enter your month");
+switch (month) {
+    case "January":
+        alert("1");
+        break;
+    case "February":
+        alert("2");
+        break;
+    case "March":
+        alert("3");
+        break;
+    case "April":
+        alert("4");
+        break;
+    case "May":
+        alert("5");
+        break;
+    case "June":
+        alert("6");
+        break;
+    case "July":
+        alert("7");
+        break;
+    case "August":
+        alert("8");
+        break;
+    case "September":
+        alert("9");
+        break;
+    case "October":
+        alert("10");
+        break;
+    case "Novembe":
+        alert("11");
+        break;
+    case "December":
+        alert("12");
+        break;
+ default: alert("There is no such month")
+}
