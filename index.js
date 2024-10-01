@@ -33,38 +33,38 @@
 
 // Напиши програму, яка запитує у користувача номер місяця (від 1 до 12) і виводить пору року 
 // (1-3 — зима, 4-6 — весна, 7-9 — літо, 10-12 — осінь). Використай switch case.
-// let month= prompt("Enter month number");
-// switch (true){
-//     case (month >=1 && month <=3):
-//         alert("Winter");
-//         break;
-//         case (month >=4 && month <=6):
-//         alert("Spring");
-//         break;
-//         case (month >=7 && month <=9):
-//         alert("Summer");
-//         break;
-//         case (month >= 10 && month <= 12):
-//         alert("Fall");
-//         break;
-// }
+let month= prompt("Enter month number");
+switch (true){
+    case (month >=1 && month <=3):
+        alert("Winter");
+        break;
+        case (month >=4 && month <=6):
+        alert("Spring");
+        break;
+        case (month >=7 && month <=9):
+        alert("Summer");
+        break;
+        case (month >= 10 && month <= 12):
+        alert("Fall");
+        break;
+}
 
 
 
 // Напиши програму, яка запитує у користувача вік і визначає категорію: дитина (0-12), підліток (13-17),
 //  дорослий (18-64), пенсіонер (65 і більше). Використай switch case.
-let age= prompt("Enter your age");
-switch (true){
-    case(age >=0 && age <=12):
-    alert("child");
-    break;
-    case(age >=13 && age <=17):
-    alert("teenager");
-    break;
-    case(age >=18 && age <=64):
-    alert("adult");
-    break;
-    case(age >=65):
-    alert("pensioner");
-    break;
-}
+// let age= prompt("Enter your age");
+// switch (true){
+//     case(age >=0 && age <=12):
+//     alert("child");
+//     break;
+//     case(age >=13 && age <=17):
+//     alert("teenager");
+//     break;
+//     case(age >=18 && age <=64):
+//     alert("adult");
+//     break;
+//     case(age >=65):
+//     alert("pensioner");
+//     break;
+// }
